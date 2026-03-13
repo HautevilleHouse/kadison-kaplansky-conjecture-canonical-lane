@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "The Kadison-Kaplansky Conjecture via Projection-Spectral Persistence"
+message: "If you use this workspace, cite the manuscript and theorem notes."
+type: software
+authors:
+  - name: "HautevilleHouse"
+date-released: 2026-03-11
+repository-code: "https://github.com/HautevilleHouse/kadison-kaplansky-conjecture-canonical-lane"
+url: "https://github.com/HautevilleHouse/kadison-kaplansky-conjecture-canonical-lane"
+keywords:
+  - kadison-kaplansky-conjecture
+  - operator-algebras
+  - c-star-algebras
+  - k-theory
+  - group-algebras
+  - mathematical-proof
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "The Kadison-Kaplansky Conjecture via Projection-Spectral Persistence"
+  authors:
+    - name: "HautevilleHouse"
+  date: 2026-03-11

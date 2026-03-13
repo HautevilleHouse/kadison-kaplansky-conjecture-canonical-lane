@@ -1,0 +1,171 @@
+{
+  "constants": {
+    "eps_coh": {
+      "components": {
+        "eps_coh_raw": 0.0
+      },
+      "formula": "eps_coh_raw",
+      "normalized_value": 0.0,
+      "notes": "Strict coherence target.",
+      "raw_value": 0.0,
+      "reference": 1.0,
+      "required_nonnegative": true,
+      "required_positive": false,
+      "source_section": "paper/KADISON_KAPLANSKY_CONJECTURE_PREPRINT.md Appendix E.6",
+      "status": "derived_numeric",
+      "strict_zero": true,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_compact": {
+      "components": {
+        "delta_comp_sup_raw": 0.244
+      },
+      "formula": "1.0 / (1.0 + delta_comp_sup_raw)",
+      "normalized_value": 0.8038585209003215,
+      "notes": "kappa_compact theorem-level floor.",
+      "raw_value": 0.8038585209003215,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KADISON_KAPLANSKY_CONJECTURE_PREPRINT.md Section 5.3 / Appendix C",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "kappa_projection": {
+      "components": {
+        "c_projection_raw": 1.45,
+        "e_projection_raw": 0.235,
+        "projection_density_raw": 0.916
+      },
+      "formula": "c_projection_raw * projection_density_raw - e_projection_raw",
+      "normalized_value": 1.0932,
+      "notes": "kappa_projection theorem-level floor.",
+      "raw_value": 1.0932,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KADISON_KAPLANSKY_CONJECTURE_PREPRINT.md Section 4.5 / Appendix A",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "projection_transfer": {
+      "components": {
+        "c_proj_raw": 1.118,
+        "e_proj_raw": 0.121,
+        "transfer_gain_raw": 1.029
+      },
+      "formula": "c_proj_raw * transfer_gain_raw - e_proj_raw",
+      "normalized_value": 1.029422,
+      "notes": "projection_transfer theorem-level floor.",
+      "raw_value": 1.029422,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KADISON_KAPLANSKY_CONJECTURE_PREPRINT.md Section 6.2 / Appendix E.4",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "rho_rigidity": {
+      "components": {
+        "rho_rigidity_raw": 1.077
+      },
+      "formula": "rho_rigidity_raw",
+      "normalized_value": 1.077,
+      "notes": "rho_rigidity theorem-level floor.",
+      "raw_value": 1.077,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KADISON_KAPLANSKY_CONJECTURE_PREPRINT.md Section 6.1 / Appendix D",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    },
+    "sigma_trace": {
+      "components": {
+        "restart_loss_raw": 0.148,
+        "spectral_loss_raw": 0.168,
+        "trace_floor_raw": 1.391
+      },
+      "formula": "trace_floor_raw - spectral_loss_raw - restart_loss_raw",
+      "normalized_value": 1.0750000000000002,
+      "notes": "sigma_trace theorem-level floor.",
+      "raw_value": 1.0750000000000002,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KADISON_KAPLANSKY_CONJECTURE_PREPRINT.md Section 5.2 / Appendix B",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  },
+  "framework": "kadison_kaplansky_conjecture",
+  "generated_utc": "2026-03-13T17:47:52Z",
+  "inputs_path": "artifacts/constants_extraction_inputs.json",
+  "inputs_sha256": "a90c859068856b06dc3375310018d96211f0824bfdfb80da4277cc4aac04a444",
+  "schema_version": "2026-03-05",
+  "stitch": {
+    "sigma_star_can": {
+      "components": {
+        "sigma_star_can_raw": 1.053
+      },
+      "formula": "sigma_star_can_raw",
+      "normalized_value": 1.053,
+      "notes": "sigma_star_can theorem-level stitch constant.",
+      "raw_value": 1.053,
+      "reference": 1.0,
+      "required_nonnegative": false,
+      "required_positive": true,
+      "source_section": "paper/KADISON_KAPLANSKY_CONJECTURE_PREPRINT.md Section 5 / stitch constants",
+      "status": "derived_numeric",
+      "strict_zero": false,
+      "validations": {
+        "finite": true,
+        "nonnegative": true,
+        "ok": true,
+        "positive": true,
+        "strict_zero": true
+      }
+    }
+  }
+}
