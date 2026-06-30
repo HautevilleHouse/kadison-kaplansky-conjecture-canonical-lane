@@ -275,4 +275,4 @@ A reviewer can check this claim on four surfaces:
 
     1. R. V. Kadison and I. Kaplansky, foundational conjectural discussions on idempotents and operator-algebraic rigidity for group algebras.
 2. N. Higson and G. Kasparov, *E-theory and KK-theory for groups which act properly and isometrically on Hilbert space*, Invent. Math. 144 (2001), 23-74.
-3. W. Lück, *K- and L-theory of group rings*, surveys on idempotent and assembly questions.
+3. W. Lück, *K- and L-theory of group rings*, in *Proceedings of the International Congress of Mathematicians 2010*, Vol. II, 1071-1098. DOI: `10.1142/9789814324359_0087`
